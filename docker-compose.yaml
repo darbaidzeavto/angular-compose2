@@ -1,0 +1,9 @@
+---
+version: "3.9"
+services:
+  angular-compose:
+    container_name: angular_nginx-compose
+    image: avto-compose
+    ports:
+      - 80:80
+
